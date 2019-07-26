@@ -2,17 +2,13 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export default function CharacterList() {
-  // TODO: Add useState to track data from useEffect
-
-Const List = () => {
   
-}
+  // TODO: Add useState to track data from useEffect
 
   useEffect(() => {
     axios.get('https://rickandmortyapi.com/api/character/')
     .then(res => {
-      console.log(res.data);
-      setData(res.data.results);
+      
     });
     
     // TODO: Add AJAX/API Request here - must run in `useEffect`
